@@ -1,0 +1,25 @@
+<h1>Stupid coaching</h1>
+
+<div class="wrap">
+  <p><%= @answer %></p>
+  <p>-You</p>
+</div>
+
+<% if @answer == 'I am going to work' %>
+  <div class="wrap-answer">
+    <p>Great!</p>
+    <p>-Your coach</p>
+  </div>
+<% elsif @answer.include? '?' %>
+  <div class="wrap-answer">
+  <p>Silly question, get dressed and go to work!</p>
+  <p>-Your coach</p>
+  </div>
+<% else %>
+  <div class="wrap-answer">
+  <p>I don't care, get dressed and go to work!</p>
+  <p>-Your coach</p>
+  </div>
+<% end  %>
+
+<%= link_to 'Ask a new question', ask_path %>

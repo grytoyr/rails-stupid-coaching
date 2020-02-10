@@ -1,0 +1,34 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  font-family: system-ui;
+}
+
+
+#input-button {
+  background-color: rgb(50, 121, 183);
+  padding: 10px 15px;
+  color: white;
+}
+
+#ask-field {
+    padding: 10px 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrap-answer {
+  border-left: 4px solid rgb(221, 221, 221);
+  padding: 10px 15px;
+  background-color: rgb(255, 254, 225);
+  margin-bottom: 20px;
+}
+
+.wrap {
+  border-left: 4px solid rgb(221, 221, 221);
+  padding: 10px 15px;
+  margin-bottom: 20px;
+}
